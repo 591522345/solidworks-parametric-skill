@@ -1,6 +1,6 @@
 ---
 name: solidworks-parametric
-description: Use when the user asks to create parametric CAD models in SolidWorks — bolts, fasteners, gaming mice, or any part with adjustable dimensions. Triggers on keywords like "画个螺栓", "create a bolt", "M6/M8/M10", "gaming mouse", "参数化建模", "SolidWorks", "SW 建模". Requires solidworks-automation skill installed. Use for any new parametric part request — modify BOLT_SPEC or MOUSE_SPEC at the top of scripts and re-run.
+description: Use whenever the user mentions CAD, SolidWorks, SW, 3D建模, 零件, 螺栓, 鼠标, 参数化, or any mechanical part design — even in passing. Triggers on "CAD", "画个", "create a", "建模", "M6/M8/M10", "gaming mouse", "SolidWorks". Requires solidworks-automation skill. Use for any CAD part request — modify the SPEC dictionary at the top of the matching script and re-run.
 ---
 
 # SolidWorks 参数化建模
